@@ -1,0 +1,116 @@
+.data-list { 
+    text-align: center; 
+   } 
+   body{ 
+    background-image: url('build.png');
+    
+    background-size: cover; /* or contain, or auto, or specific size */
+    background-position: center;
+    } 
+   #frm{ 
+   border:solid rgb(206, 195, 236) 1px; 
+   width:50%; 
+   border-radius:5px; 
+   margin:100px auto; 
+   background-color: cyan;
+   padding:50px;
+   } 
+   #frm1{ 
+    border:solid rgb(100, 216, 52) 1px; 
+   width:50%; 
+   border-radius:2px; 
+   margin:10px auto; 
+   
+   padding:4px;
+   }
+   #frm1:hover { 
+    background-color: #ec5813;
+    }
+    #frm2{
+        border:solid rgb(35, 15, 170) 1px; 
+   width:70%; 
+   border-radius:3px; 
+   margin:10px auto; 
+   
+   padding:5px;  
+    }
+   #btn{ 
+   background-color: #ca0d65; /* Change to your desired background color */  color: white; /* Text color */ 
+    padding: 10px 20px; /* Padding to adjust the button size */  border: none; /* Remove the border if desired */ 
+    cursor: pointer; /* Add a pointer cursor for interaction */ } 
+   /* Change to the hover color you prefer */ /* You can also adjust other styles on hover if needed */ 
+   
+   
+   #btn:hover { 
+   background-color: #5487e6;
+   }
+   #btn1{ 
+    background-color: #2ae919; /* Change to your desired background color */  color: white; /* Text color */ 
+     padding: 10px 20px; /* Padding to adjust the button size */  border: none; /* Remove the border if desired */ 
+     cursor: pointer; /* Add a pointer cursor for interaction */ } 
+    /* Change to the hover color you prefer */ /* You can also adjust other styles on hover if needed */ 
+    
+    
+    #btn1:hover { 
+    background-color: #f30909;
+    }
+   
+   .remove-form { 
+    text-align: center; 
+   } 
+   table { 
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    width: 80%; 
+   } 
+   th, td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: center; 
+   } 
+   th { 
+    background-color: #007BFF; 
+    color: white;
+   } 
+   tr:nth-child(even) { 
+    background-color: #f2f2f2; 
+   } 
+   tr:hover { 
+    background-color: #cce5ff; 
+   } 
+   .container {
+    background-color: aquamarine;
+    width: 300px; /* Adjust width as needed */
+    margin: 10px auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    border: 1px solid #ccc; /* Add border for the box */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+.output-box {
+    width: 300px; /* Adjust width as needed */
+    margin: 80px auto 0; /* Center the box horizontally and add some space at the top */
+    padding: 10px; /* Add padding inside the box */
+    border: 1px solid #ccc; /* Add border for the box */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #f9f9f9; /* Set background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth effect */
+    text-align: center; /* Center the text inside the box */
+    background-color: #f30909;
+}
+.logout {
+    background-color: #f44336; /* Red */
+    margin: 4px auto 0; 
+    color: rgb(240, 22, 6);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+   
+    
+}
+
+.logout:hover {
+    background-color: #d32f2f; /* Darker Red */
+}

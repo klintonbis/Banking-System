@@ -1,0 +1,29 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Login Page</title> 
+ <link rel="stylesheet" type="text/css" href="style.css"> 
+</head> 
+<body> 
+ <center><h1>Administrator Login</h1></center> 
+ <div id="frm"> 
+    <form action="processass.php" method="post"> 
+    <p>
+    <label for="unique_id">Unique ID:</label>
+    <input type="number" id="unique_id" name="unique_id" required><br>
+    </p>
+    <p>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+   </p>
+    <p> 
+        <button type="submit" id="btn1" name="login">Login</button>  </p> 
+</form>
+
+<form action="logout.php" method="post"> 
+
+    <button type="submit" id="logout" name="Logout">Logout</button>
+    </form>
+</body> 
+</html> 

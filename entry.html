@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <title>User Type Selection</title>
+    <script>
+        function redirectToLoginPage() {
+            var user = document.querySelector('input[name="user"]:checked').value;
+            if (user === 'user') {
+                window.location.href = 'login.html'; // Redirect to user login page
+            } else if (user === 'administrator') {
+                window.location.href = 'adminstrator.html'; // Redirect to administrator login page
+            }
+        }
+    </script>
+</head>
+<body>
+   <center><h2>Select User Type:</h2></center>
+    <div id="frm">
+    
+        <input type="radio" id="user" name="user" value="user">
+        <label for="user">User</label><br>
+        <input type="radio" id="administrator" name="user" value="administrator">
+        <label for="administrator">Administrator</label><br>
+       
+        <button type="button" id="btn1" onclick="redirectToLoginPage()">Enter</button>
+        
+    </div>
+    
+</body>
+</html>
+
+

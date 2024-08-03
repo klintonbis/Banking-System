@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <h2><center><font color=black size=6pt>Login success!!! Store user information </font></h2> 
+ <title>Data entry</title> 
+ <link rel="stylesheet" type="text/css" href="style.css"> 
+</head> 
+<body> 
+ <div style="text-align: center; margin-top: 20px;"> 
+ <a href="view.php" class="view-button">View Data</a> 
+ </div>'; 
+ <div id="frm"> 
+ <form action="store-data.php" method="post"> 
+ 
+ 
+ <p> 
+ <label>User_id :  </label> 
+ <input type="number" name="user_id " required> 
+ </p> 
+ <label>Username: </label> 
+ <input type="text" name="username" required>
+ </p> 
+ <p> 
+ <label>Password: </label> 
+ <input type="text" name="password" required> 
+ </p> 
+ <label>Amount: </label> 
+ <input type="number" name="balance" required> 
+ </p> 
+ 
+ <p> 
+ <button type="submit" id="btn1" name="submit">Submit Data</button>  </p> 
+ </form>
+ </div> 
+ <form action="logout.php" method="post"> 
+
+    <button type="submit" id="logout" name="Logout">Logout</button>
+    </form>
+
+
+</body> 
+</html> 
